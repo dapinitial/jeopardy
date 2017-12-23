@@ -2,3 +2,9 @@ body {
   padding: 5%;
   text-align: center;
 }
+
+.link-home {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
