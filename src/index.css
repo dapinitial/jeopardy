@@ -8,3 +8,22 @@ body {
   left: 30px;
   top: 30px;
 }
+
+.text-hidden {
+  visibility: hidden;
+}
+
+.text-revealed {
+  animation-name: fade-in;
+  animation-duration: 300ms;
+  visibility: visible;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 100;
+  }
+}
