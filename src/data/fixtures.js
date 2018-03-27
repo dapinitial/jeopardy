@@ -11,6 +11,8 @@ export const categories = [
   }
 ];
 
+export const category = categories[0];
+
 export const clue = {
   id: 0,
   question: 'q one',
