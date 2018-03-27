@@ -12,7 +12,7 @@ describe('Clue', () => {
   let clueWrapper = shallow(<Clue {...props}/>)
 
   it('renders the clue value', () => {
-    console.log(clueWrapper.debug());
+    //console.log(clueWrapper.debug());
     expect(clueWrapper.find('h4').text()).toEqual(clue.value);
   });
 
